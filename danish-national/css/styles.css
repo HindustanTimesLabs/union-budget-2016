@@ -1,0 +1,78 @@
+body {
+	max-width: 650px;
+}
+
+.viz-wrapper {
+	width: 100%;
+	font-family: 'Roboto' !important;
+}
+
+/*LEGEND*/
+.legend {
+	width: 100%;
+	margin: 0 auto;
+	display: table;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.legend-item {
+	width: 24%;
+	height: 100%;
+	float: left;
+	padding: 5px;
+	color: #fff;
+	cursor: pointer;
+	opacity: .7;
+	margin-right: 5px;
+}
+.legend-item:nth-of-type(4){
+	margin-right: 0px;
+}
+.legend-item:hover {
+	opacity: 1;
+}
+.legend-row {
+	display: block;
+	height: 48px;
+	margin-top: 5px;
+}
+.selected {
+	opacity: 1;
+	cursor: default;
+}
+.unselected {
+	opacity: .7;
+	cursor: pointer;
+}
+
+/*CHART*/
+.chart {
+	height: 500px;
+	width: 100%;
+}
+.chart-title {
+	font-size: 24px;
+	font-weight: bold;
+}
+.chart-subtitle {
+	font-size: 18px;
+	font-style: italic;
+	color: #5A5A5A;
+	margin-bottom: 5px;
+}
+.share {
+	text-align: left;
+}
+.share input {
+	font-size: 10px;
+	padding-top: 6px;
+	padding-bottom: 2px;
+	width: 300px;
+}
+
+/*RESPONSIVENESS*/
+@media only screen and (max-width: 550px) {
+    .legend-item {
+        font-size: 10px;
+    }
+}
