@@ -1,0 +1,85 @@
+body {
+	max-width: 650px;
+}
+
+.viz-wrapper {
+	width: 100%;
+	font-family: 'Roboto' !important;
+}
+
+/*LEGEND*/
+
+.select {
+	padding-top: 10px;
+}
+.cat {
+	font-size: 16px;
+	width: 25%;
+	float: left;
+	margin-bottom: 10px;
+}
+.selecteds {
+	cursor: default;
+	font-weight: 900 !important;
+}
+.unselecteds {
+	cursor: pointer;
+	font-weight: normal;
+}
+
+/*CHART*/
+.chart-title {
+	font-size: 20px;
+}
+.chart-subtitle {
+	font-size: 18px;
+	font-style: italic;
+	color: #5A5A5A;
+	margin-bottom: 5px;
+}
+.share {
+	text-align: left;
+}
+.share input {
+	font-size: 10px;
+	padding-top: 6px;
+	padding-bottom: 2px;
+	width: 285px;
+}
+
+/*CATS*/
+.info {
+	padding: 5px;
+	font-size: 15px;
+	margin-top:-5px;
+	margin-bottom: 10px;
+}
+.cat-title {
+	font-size: 18px;
+	color: #0087c1;
+}
+.hide {
+	display: none;
+}
+.show {
+	display: block;
+}
+
+/*TABLES*/
+table {
+	width: 100%;
+	margin-bottom: 10px;
+}
+td {
+	padding: 5px;
+}
+thead tr {
+	font-weight: bold;
+	background: #fff !important;
+}
+tr:nth-of-type(odd) {
+	background: #eee;
+}
+td:nth-of-type(odd) {
+	width: 61.8%;
+}

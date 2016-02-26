@@ -1,0 +1,248 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<!-- meta -->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Budget Charts</title>
+
+		<!-- fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+
+		<!-- js -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="js/scripts.js"></script>
+
+		<!-- css -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/styles.css" />
+
+	</head>
+	<body>
+		<div class="viz-wrapper">
+			<div class="chart-title">
+				The cars we drive
+			</div>
+			<div class="chart-subtitle">
+				Popular Indian vehicles by price range
+			</div>
+			<div class="categories">
+				<div class="select">
+					Select category:
+				</div>
+				<div class="cat luxury selecteds">
+					Luxury
+				</div>
+				<div class="cat premium unselecteds">
+					Premium
+				</div>
+				<div class="cat muv unselecteds">
+					MUV+
+				</div>
+
+				<div class="cat sedan unselecteds">
+					Small cars
+				</div>
+
+			</div>
+			<br />
+			<br />
+
+			<div class="stats-wrapper">
+
+				<div class="cat-wrapper luxury show">
+					<div class="info">
+						<div class="cat-title">
+							Luxury cars
+						</div>
+						<div class="price">
+							<b>Price range:</b> Rs 60 lakh - Rs 1.5 crore
+						</div>
+						<div class="units">
+							<b>Units sold per year:</b> 900
+						</div>
+					</div>
+
+					<table>
+						<thead>
+							<tr>
+								<td>Vehicle</td>
+								<td>Price (₹)</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Mercedes G55 AMG</td>
+								<td>1.34 cr</td>
+							</tr>
+
+							<tr>
+								<td>Range Rover Autobiography</td>
+								<td>1.32 cr</td>
+							</tr>
+
+							<tr>
+								<td>Porsche Cayenne</td>
+								<td>60.7 lakh - 1.28 cr</td>
+							</tr>
+
+							<tr>
+								<td>Toyota Land Cruiser</td>
+								<td>99.3 lakh</td>
+							</tr>
+
+						</tbody>
+					</table>
+
+				</div>
+
+				<div class="cat-wrapper premium hide">
+					<div class="info">
+						<div class="cat-title">
+							Premium cars
+						</div>
+						<div class="price">
+							<b>Price range:</b> Rs 30 lakh - Rs 60 lakh
+						</div>
+						<div class="units">
+							<b>Units sold per year:</b> 25,000
+						</div>
+					</div>
+
+					<table>
+						<thead>
+							<tr>
+								<td>Vehicle</td>
+								<td>Price (₹)</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Range Rover Evoque</td>
+								<td>45 - 58 lakh</td>
+							</tr>
+
+							<tr>
+								<td>BMW X3</td>
+								<td>42.9 - 49.8 lakh</td>
+							</tr>
+
+							<tr>
+								<td>Audi Q5</td>
+								<td>38.94 - 45.56 lakh</td>
+							</tr>
+
+							<tr>
+								<td>Mitsubishi Montero</td>
+								<td>41.34 lakh</td>
+							</tr>
+
+						</tbody>
+					</table>
+				</div>
+
+				<div class="cat-wrapper muv hide">
+					<div class="info">
+						<div class="cat-title">
+							MUV+
+						</div>
+						<div class="price">
+							<b>Price range:</b> Rs 6 lakh - Rs 10 lakh
+						</div>
+						<div class="units">
+							<b>Units sold per year:</b> 550,000
+						</div>
+					</div>
+
+					<table>
+						<thead>
+							<tr>
+								<td>Vehicle</td>
+								<td>Price (₹)</td>
+							</tr>
+						</thead>
+
+						<tbody>
+							<tr>
+								<td>Renault Duster</td>
+								<td>7.2 - 11.3 lakh</td>
+							</tr>
+
+							<tr>
+								<td>Maruti Ertiga</td>
+								<td>5.9 - 8.6 lakh</td>
+							</tr>
+
+							<tr>
+								<td>Mahindra Bolero</td>
+								<td>6.2 - 7.2 lakh</td>
+							</tr>
+
+							<tr>
+								<td>Mahindra Thar</td>
+								<td>6.9 lakh</td>
+							</tr>
+
+						</tbody>
+					</table>
+				</div>
+
+				<div class="cat-wrapper sedan hide">
+					<div class="info">
+						<div class="cat-title">
+							Small cars and sedans
+						</div>
+						<div class="price">
+							<b>Price range:</b> Rs 2 lakh - Rs 7 lakh
+						</div>
+						<div class="units">
+							<b>Units sold per year:</b> 1.6 million
+						</div>
+					</div>
+
+					<table>
+						<thead>
+							<tr>
+								<td>Vehicle</td>
+								<td>Price (₹)</td>
+							</tr>
+						</thead>
+
+						<tbody>
+							<tr>
+								<td>Maruti Swift</td>
+								<td>5.8 - 7.2 lakh</td>
+							</tr>
+
+							<tr>
+								<td>Hyundai Grand i10</td>
+								<td>4.6 - 6.7 lakh</td>
+							</tr>
+
+							<tr>
+								<td>Ford Figo</td>
+								<td>4.1 - 6.4 lakh</td>
+							</tr>
+
+							<tr>
+								<td>Mahindra Alto</td>
+								<td>2.9 - 3.9 lakh</td>
+							</tr>
+
+						</tbody>
+					</table>
+				</div>
+
+			</div>
+
+			<div class="share">
+				Share chart:
+				<input value="http://hindustantimes.com/static/union-budget-2016/cars/" />
+				<a href="https://www.facebook.com/sharer/sharer.php?u=http://hindustantimes.com/static/union-budget-2016/cars/" target="_blank" title="Share on Facebook"><img width="26px" src="https://www.facebookbrand.com/img/fb-art.jpg" style="margin-bottom:2px;margin-left:4px;"></a><a href="http://twitter.com/share?text=The cars Indians drive, from cheapest to most luxurious&url=http://hindustantimes.com/static/union-budget-2016/cars/" target="_blank" title="Tweet"><img width="26px" src="http://img1.rnkr-static.com/user_node_img/115/2290724/C350/twitter-u16.jpg" style="margin-bottom:2px;margin-left:4px;"></a>
+			</div>
+		</div>
+	</body>
+</html>
+
