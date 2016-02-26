@@ -16,7 +16,7 @@ $(document).ready(function() {
 	var width = $(window).width();
 
 	if (width <= 500) {
-		$('.cat').css('font-size', '12px');
+		$('.cat').css('font-size', '14px');
 	} else {
 		$('.cat').css('font-size', '16px');
 	}
@@ -26,7 +26,7 @@ $(document).ready(function() {
 		width = $(window).width();
 		
 		if (width <= 500) {
-			$('.cat').css('font-size', '12px');
+			$('.cat').css('font-size', '14px');
 		} else {
 			$('.cat').css('font-size', '16px');
 		}
