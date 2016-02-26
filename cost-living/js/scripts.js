@@ -82,7 +82,7 @@ var vAxis = {
 		fontSize : 16,
 		color : '#5A5A5A'
 	},
-	baselineColor : '#fff'
+	baselineColor : '#000'
 };
 
 //options sets
@@ -95,5 +95,12 @@ var options0 = {
 	hAxis : hAxis,
 	legend : legend,
 	tooltip : tooltip,
-	vAxis : vAxis
+	vAxis : vAxis,
+	series : {
+		1 : {
+			lineWidth : 1,
+			dataOpacity: 0,
+			pointSize: .000001
+		}
+	}
 };

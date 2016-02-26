@@ -30,7 +30,7 @@ function init() {
 $(document).ready(init);
 
 //DATA
-var data0 = [['Year', 'Retail food inflation', 'Finance minister', {role: 'tooltip'}, {role: 'annotation'}], ['1991-92', 15.7, 0, 'Manmohan Singh', 'Manmohan Singh'], ['1992-93', 10.1, 0, 'Manmohan Singh', ,], ['1993-94', 7.1, 0, 'Manmohan Singh', ,], ['1994-95', 11.9, 0, 'Manmohan Singh', ,], ['1995-96', 11, 0, 'Manmohan Singh', ,], ['1996-97', 9.3, 0, 'P Chidambaram', 'P Chidambaram'], ['1997-98', 5.2, 0, 'P Chidambaram', ,], ['1998-99', 14.6, 0, 'Yashwant Sinha', 'Yashwant Sinha'], ['1999-00', 0.3, 0, 'Yashwant Sinha', ,], ['2000-01', 1.5, 0, 'Yashwant Sinha', ,], ['2001-02', 2.9, 0, 'Yashwant Sinha', ,], ['2002-03', 2.5, 0, 'Yashwant Sinha', ,], ['2003-04', 3.7, 0, 'Jaswant Singh', 'Jaswant Singh'], ['2004-05', 2.2, 0, 'P Chidambaram', 'P Chidambaram'], ['2005-06', 3.8, 0, 'P Chidambaram', ,], ['2006-07', 8.9, 0, 'P Chidambaram', ,], ['2007-08', 8.4, 0, 'P Chidambaram', ,], ['2008-09', 12.3, 0, 'Pranab Mukherjee', 'Pranab Mukherjee'], ['2009-10', 15.2, 0, 'Pranab Mukherjee', ,], ['2010-11', 9.9, 0, 'Pranab Mukherjee', ,], ['2011-12', 6.3, 0, 'Pranab Mukherjee', ,], ['2012-13', 11.9, 0, 'P Chidambaram', 'P Chidambaram'], ['2013-14', 12.3, 0, 'P Chidambaram', ,], ['2014-15', 6.5, 0, 'Arun Jaitley', 'Arun Jaitley']];
+var data0 = [['Years', 'Avg. GDP growth', 'Prime Minister', {role: 'tooltip'}, {role: 'annotation'}], ['1991-96', 5.2, 0, 'PV Narasimha Rao', 'PV Narasimha Rao'], ['1996-97', 7.9, 0, 'HD Deve Gowda', 'HD Deve Gowda'], ['1997-98', 4.3, 0, 'IK Gujral', 'IK Gujral'], ['1998-2004', 5.8, 0, 'AB Vajpayee', 'AB Vajpayee'], ['2004-14', 7.1, 0, 'Manmohan Singh', 'Manmohan Singh'], ['2014- Present', 7.4, 0, 'Narendra Modi', 'Narendra Modi']];
 
 //OPTIONS
 
@@ -54,12 +54,12 @@ var chartArea = {
 };
 var fontName = 'Roboto';
 var hAxis = {
-	title : 'Year',
+	title : 'Years',
 	titleTextStyle : {
 		fontSize : 16,
 		color : '#5A5A5A'
 	},
-	slantedText : true,
+	slantedText : false,
 	slantedTextAngle : 50,
 };
 var focusTarget = 'category';
@@ -76,8 +76,8 @@ var vAxis = {
 	gridlines : {
 		color : '#eee'
 	},
-	ticks : [0, 4, 8, 12, 16],
-	title : 'Retail food inflation (%)',
+	ticks : [0, 2, 4, 6, 8, 10],
+	title : 'Average GDP growth (%)',
 	titleTextStyle : {
 		fontSize : 16,
 		color : '#5A5A5A'
