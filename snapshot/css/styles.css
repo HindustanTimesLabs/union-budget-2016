@@ -1,0 +1,109 @@
+body {
+	max-width: 650px;
+}
+
+.viz-wrapper {
+	width: 100%;
+	font-family: 'Roboto' !important;
+}
+
+/*LEGEND*/
+.key {
+	color: #000;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.total {
+	margin-bottom: 10px;
+}
+.select {
+	padding-top: 10px;
+}
+.cat {
+	font-size: 16px;
+	width: 15%;
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
+.selecteds {
+	cursor: default;
+	font-weight: 900 !important;
+}
+.unselecteds {
+	cursor: pointer;
+	font-weight: normal;
+}
+
+
+/*CHART*/
+.chart-title {
+	font-size: 20px;
+}
+.chart-subtitle {
+	font-size: 18px;
+	font-style: italic;
+	color: #5A5A5A;
+	margin-bottom: 5px;
+}
+.space {
+	height: 57px;
+}
+.share {
+	text-align: left;
+}
+.share input {
+	font-size: 10px;
+	padding-top: 6px;
+	padding-bottom: 2px;
+	width: 300px;
+}
+
+/*CATS*/
+.item {
+	margin-bottom: 10px;
+}
+.hide {
+	display: none;
+}
+.show {
+	display: block;
+}
+
+/*CLIPS*/
+.clip-10 {
+	-webkit-clip-path: inset(0 10% 0 0);
+	clip-path: inset(0 10% 0 0);
+}
+.clip-20 {
+	-webkit-clip-path: inset(0 20% 0 0);
+	clip-path: inset(0 20% 0 0);
+}
+.clip-30 {
+	-webkit-clip-path: inset(0 30% 0 0);
+	clip-path: inset(0 30% 0 0);
+}
+.clip-40 {
+	-webkit-clip-path: inset(0 40% 0 0);
+	clip-path: inset(0 40% 0 0);
+}
+.clip-50 {
+	-webkit-clip-path: inset(0 50% 0 0);
+	clip-path: inset(0 50% 0 0);
+}
+.clip-60 {
+	-webkit-clip-path: inset(0 60% 0 0);
+	clip-path: inset(0 60% 0 0);
+}
+.clip-70 {
+	-webkit-clip-path: inset(0 70% 0 0);
+	clip-path: inset(0 70% 0 0);
+}
+.clip-80 {
+	-webkit-clip-path: inset(0 75% 0 0);
+	clip-path: inset(0 75% 0 0);
+}
+.clip-90 {
+	-webkit-clip-path: inset(0 80% 0 0);
+	clip-path: inset(0 80% 0 0);
+}

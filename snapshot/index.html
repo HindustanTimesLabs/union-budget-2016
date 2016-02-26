@@ -1,0 +1,238 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<!-- meta -->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Budget Charts</title>
+
+		<!-- fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+
+		<!-- js -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="js/scripts.js"></script>
+
+		<!-- css -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/styles.css" />
+
+	</head>
+	<body>
+		<div class="viz-wrapper">
+			<div class="chart-title">
+				A snapshot of rural India
+			</div>
+			<div class="chart-subtitle">
+				Statistics on rural Indian households, 2015
+			</div>
+			<div class="categories">
+				<div class="select">
+					Select category:
+				</div>
+				<div class="cat amenities selecteds">
+					Amenities
+				</div>
+
+				<div class="cat finance unselecteds">
+					Finance
+				</div>
+
+				<div class="cat income unselecteds">
+					Income
+				</div>
+
+				<div class="cat land unselecteds">
+					Land
+				</div>
+
+				<div class="cat transportation unselecteds">
+					Transportation
+				</div>
+			</div>
+			<br /><br />
+			<div class="key">
+				(<span class="glyphicon glyphicon-home" aria-hidden="true"></span> = 10 million households)
+			</div>
+
+			<div class="total">
+				Total rural households — 179.722 million
+				<br />
+				<img src="img/house-full-red.png"><img src="img/house-full-red.png"><img src="img/house-full-red.png"><img src="img/house-full-red.png"><img src="img/house-full-red.png"><img src="img/house-full-red.png"><img src="img/house-full-red.png"><img src="img/house-full-red.png"><img src="img/house-full-red.png"><img src="img/house-full-red.png"><img src="img/house-full-red.png"><img src="img/house-full-red.png"><img src="img/house-full-red.png"><img src="img/house-full-red.png"><img src="img/house-full-red.png"><img src="img/house-full-red.png"><img src="img/house-full-red.png"><img class="clip-10" src="img/house-full-red.png">
+			</div>
+			<div class="stats-wrapper">
+
+				<div class="cat-wrapper amenities show">
+					<div class="item">
+						Households owning mobile phone only — 122.709 million (68%)
+						<br />
+						<img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img class='clip-80' src='img/house-full-blue.png'>
+					</div>
+					<div class="item">
+						Households without any phone — 50.314 million (28%)
+						<br />
+						<img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img class='clip-70' src='img/house-full-blue.png'>
+					</div>
+					<div class='item'>
+						Households owning a refrigerator — 19.785 million (11%)
+						<br />
+						<img src="img/house-full-blue.png"><img class='clip-10' src='img/house-full-blue.png'>
+					</div>
+					<div class='item'>
+						Households owning both landline and mobile — 4.881 million (3%)
+						<br />
+						<img class='clip-50' src='img/house-full-blue.png'>
+					</div>
+					<div class='item'>
+						Households owning landline phone only — 1.812 million (1%)
+						<br />
+						<img class='clip-80' src='img/house-full-blue.png'>
+					</div>
+					<div class="space"></div>
+				</div>
+
+				<div class="cat-wrapper finance hide">
+					<div class='item'>
+						Households with salaried job in government — 8.954 million (5%)
+						<br />
+						<img class='clip-10' src='img/house-full-blue.png'>
+					</div>
+					<div class='item'>
+						Households having kisan credit card with the credit limit of Rs. 50,000 and above — 6.484 million (4%)
+						<br />
+						<img class='clip-40' src='img/house-full-blue.png'>
+					</div>
+					<div class='item'>
+						Households with salaried job in private sector — 6.394 million (4%)
+						<br />
+						<img class='clip-40' src='img/house-full-blue.png'>
+					</div>
+					<div class='item'>
+						Households with non-agricultural enterprises registered with government — 4.896 million (3%)
+						<br />
+						<img class='clip-50' src='img/house-full-blue.png'>
+					</div>
+					<div class='item'>
+						Households with salaried job in public sector — 1.993 million (1%)
+						<br />
+						<img class='clip-80' src='img/house-full-blue.png'>
+					</div>
+					<div class='item'>
+						Households with no land but with kissan credit card — 0.702 million (0.4%)
+						<br />
+						<img class='clip-90' src='img/house-full-blue.png'>
+					</div>
+				</div>
+
+				<div class="cat-wrapper income hide">
+					<div class='item'>
+						Monthly income of highest earning household member is &lt; Rs. 5,000 — 133.923 million (75%)
+						<br />
+						<img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img class='clip-60' src='img/house-full-blue.png'>
+					</div>
+					<div class='item'>
+						Monthly income of highest earning household member is Rs. 5,000 - 10,000 — 30.89 million (17%)
+						<br />
+						<img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img class='clip-20' src='img/house-full-blue.png'>
+					</div>
+					<div class='item'>
+						Monthly income of highest earning household member is &gt; Rs. 10,000 — 14.83 million (8%)
+						<br />
+						<img src="img/house-full-blue.png"><img class='clip-50' src='img/house-full-blue.png'>
+					</div>
+					<div class='item'>
+						Households paying income tax / professional tax — 8.22 million (5%)
+						<br />
+						<img class='clip-20' src='img/house-full-blue.png'>
+					</div>
+					<div class='item'>
+						Households with government job and reporting monthly highest income > Rs. 5,000 — 8.218 million (5%)
+						<br />
+						<img class='clip-20' src='img/house-full-blue.png'>
+					</div>
+					<div class='item'>
+						Households with destitutes/living on alms — 0.67 million (0.4%)
+						<br />
+						<img class='clip-90' src='img/house-full-blue.png'>
+					</div>
+
+				</div>
+
+				<div class="cat-wrapper land hide">
+					<div class='item'>
+						Landless households — 68.954 million (38%)
+						<br />
+						<img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img class='clip-10' src='img/house-full-blue.png'>
+					</div>
+					<div class='item'>
+						Households owning un-irrrigated land — 53.21 million (30%)
+						<br />
+						<img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img class='clip-70' src='img/house-full-blue.png'>
+					</div>
+					<div class='item'>
+						Households owning irrrigated land — 45.875 million (26%)
+						<br />
+						<img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img class='clip-40' src='img/house-full-blue.png'>
+					</div>
+					<div class='item'>
+						Households owning other land — 21.389 million (12%)
+						<br />
+						<img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img class='clip-90' src='img/house-full-blue.png'>
+					</div>
+					<div class='item'>
+						Households with irrigation equipment — 17.669 million (10%)
+						<br />
+						<img src="img/house-full-blue.png"><img class='clip-20' src='img/house-full-blue.png'>
+					</div>
+					<div class='item'>
+						Households with no land but with irrigation equipment — 1.595 million (1%)
+						<br />
+						<img class='clip-80' src='img/house-full-blue.png'>
+					</div>
+				</div>
+
+				<div class="cat-wrapper transportation hide">
+					<div class='item'>
+						Households having motorized two/three/four wheelers and fishing boats — 37.227 million (21%)
+						<br />
+						<img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img class='clip-30' src='img/house-full-blue.png'>
+					</div>
+					<div class='item'>
+						Households having 2 wheeler — 31.379 million (18%)
+						<br />
+						<img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img src="img/house-full-blue.png"><img class='clip-90' src='img/house-full-blue.png'>
+					</div>
+					<div class='item'>
+						Households owning mechanized three/four wheeler agricultural equipment — 7.37 million (4%)
+						<br />
+						<img class='clip-30' src='img/house-full-blue.png'>
+					</div>
+					<div class='item'>
+						Households having 4 wheeler — 4.412 million (3%)
+						<br />
+						<img class='clip-60' src='img/house-full-blue.png'>
+					</div>
+					<div class='item'>
+						Households having 3 wheeler — 1.002 million (1%)
+						<br />
+						<img class='clip-90' src='img/house-full-blue.png'>
+					</div>
+					<div class='item'>
+						Households having motorized fishing boat — 0.435 million (0.2%)
+						<br />
+						<img class='clip-90' src='img/house-full-blue.png'>
+					</div>
+				</div>
+			</div>
+
+			<div class="share">
+				Share chart:
+				<input value="http://hindustantimes.com/static/union-budget-2016/snapshot/" />
+				<a href="https://www.facebook.com/sharer/sharer.php?u=http://hindustantimes.com/static/union-budget-2016/snapshot/" target="_blank" title="Share on Facebook"><img width="26px" src="https://www.facebookbrand.com/img/fb-art.jpg" style="margin-bottom:2px;margin-left:4px;"></a><a href="http://twitter.com/share?text=An interactive snapshot of rural India&url=http://hindustantimes.com/static/union-budget-2016/snapshot/" target="_blank" title="Tweet"><img width="26px" src="http://img1.rnkr-static.com/user_node_img/115/2290724/C350/twitter-u16.jpg" style="margin-bottom:2px;margin-left:4px;"></a>
+			</div>
+		</div>
+	</body>
+</html>
+
